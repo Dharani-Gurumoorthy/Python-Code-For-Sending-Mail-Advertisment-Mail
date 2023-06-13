@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 
 def send_email(title, message, recipient):
     # Email configuration
-    sender_email = 'gdharanids@gmail.com'  # Replace with your Gmail address
-    sender_password = 'ksnmtayiunsjqcwj'  # Replace with your Gmail password
+    sender_email = 'xyz@gmail.com'  # Replace with your Gmail address
+    sender_password = 'abcde'  # Replace with your Gmail password
 
     # Create the email message
     email_message = MIMEMultipart('alternative')
